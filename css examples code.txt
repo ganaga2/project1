@@ -1,0 +1,298 @@
+CASCADING STYLE SHEETS:(CSS)
+SYNTAX CODE:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: red;
+  text-align: center;
+} 
+</style>
+</head>
+<body>
+
+<p>Hello World!</p>
+<p>These paragraphs are styled with CSS.</p>
+
+</body>
+</html>
+
+OUTPUT:
+
+Hello World!
+
+These paragraphs are styled with CSS.
+
+CSS ELEMENT SELECTOR:
+CODE:<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  color: red;
+} 
+</style>
+</head>
+<body>
+
+<p>Every paragraph will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+
+</body>
+</html>
+
+
+OUTPUT:
+Every paragraph will be affected by the style.
+
+Me too!
+
+And me!
+
+
+CSS ID SELECTOR:
+CODE:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+
+</body>
+</html>
+
+OUTPUT:
+
+          Hello World!
+
+This paragraph is not affected by the style.
+
+
+CSS UNIVERSAL SELECTOR
+CODE:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  text-align: center;
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello world!</h1>
+
+<p>Every element on the page will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+
+</body>
+</html>
+
+
+OUTPUT:
+                   Hello world!
+ every element on the page will be affected by the style.
+
+            Me too!
+
+           And me!
+
+CSS COMMENTS:
+CODE:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* This is a single-line comment */
+p {
+  color: red;
+} 
+</style>
+</head>
+<body>
+
+<p>Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+<p>CSS comments are not shown in the output.</p>
+
+</body>
+</html>
+
+
+code:
+
+vp.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+
+
+BORDER STYLE USING CSS:
+CODE:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+</style>
+</head>
+<body>
+
+<h2>The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+
+</body>
+</head>
+
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+CSS MARGINS:
+CODE:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual margin properties</h2>
+
+<div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+
+</body>
+</html>
+
+
+CSS PADDING:
+CODE:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual padding properties</h2>
+
+<div>This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+
+</body>
+</html>
+
+HEIGHT AND WIDTH EXAMPLES USING CSS:
+CODE:
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+   height: 200px;
+   width: 50%;
+   background-color: powderblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Set the height and width of an element</h2>
+
+<div>This div element has a height of 200px and a width of 50%.</div>
+
+</body>
+</html>
+
+MAXIMUM WIDTH OF AN ELEMENT USING CSS:
+CODE:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    max_width: 500px;
+    height: 100px;
+    background-color: powderblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Set the max_width of an element</h2>
+
+<div>This div element has a height of 100px and a max_width of 500px.</div>
+
+<p>Re size the browser window to see the effect.</p>
+
+</body>
+</htnl>
+
+
+
+ 
+
+
+
+
+
+
